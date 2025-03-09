@@ -38,5 +38,8 @@ systemctl enable --now bluetooth.service  # Enable if using Bluetooth
 echo "Setting up Hyprland..."
 echo 'exec Hyprland' > ~/.xinitrc
 
+# For clean all after all
+sudo pacman -Rns $(pacman -Qdtq)
+
 # Final message
 echo "Installation complete! Reboot your system."
