@@ -1,6 +1,9 @@
 swww
 nautilus
 kitty
+ttf-jetbrains-mono-nerd
+noto-fonts-emoji
+starship
 
 hyprland-bin
 waybar-hyprland
@@ -10,11 +13,8 @@ wofi
 wlogout
 mako
 thunar
-ttf-jetbrains-mono-nerd
-noto-fonts-emoji
 polkit-gnome
 python-requests
-starship
 swappy
 grim
 slurp
